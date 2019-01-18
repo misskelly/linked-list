@@ -1,0 +1,104 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background-color: #CFD8DC;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+main {
+  width: 100%;
+  max-width: 650px;
+  background-color: #455A64;
+  color: #FFFFFF;
+  height: 100vh;
+}
+
+main,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+h1 {
+  font-size: 60px;
+  align-self: center;
+  margin: 20px;
+}
+
+
+input {
+  margin: 20px 20px;
+  height: 3rem; 
+  padding: 0 1rem;
+}
+
+.submit {
+  background-color: #FFC107;
+  border: none;
+  height: 3rem; 
+  padding: 1rem 0;
+  margin: 20px 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  height: 40px;
+  /*width: 40px;*/
+}
+
+.cards-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  color: #455A64;
+  background-color: #FFFFFF;
+  border: solid 2px #607D8B;
+  height: 200px;
+  width: 75%;
+  padding: 20px;
+  margin: 30px;
+}
+
+.card-button {
+  border: none;
+  background-color: none;
+  padding-top: 18px;
+}
+
+#delete {
+  float: right;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #CFD8DC;
+}
+
+.card-link {
+  color: #607D8B;
+  border-bottom: 2px solid #CFD8DC;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.card-button:hover {
+  text-decoration: underline;
+}

@@ -1,7 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Linked List</title>
+    <meta name="author" content="Kelly Zick">
+    <meta name="description" content="Turing School of Software and Design, Mod 1 Repeat Project">
+    <link rel="stylesheet" type="text/css" href="resources/css/normalize.css"></link>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>
+        Linked 
+        <span><img src="resources/linked-list-logo.svg" class="logo"></span>
+        List
+      </h1>
+      <form>
+        <input type="text" name="title" id="title" placeholder="Website Title">
+        <label for="title" class="hidden">
+          Website Title
+        </label>
+        <input type="url" name="url" id="url" placeholder="Website URL">
+        <label for="url" class="hidden">
+          Website URL
+        </label>
+        <button name="enter" class="submit">
+          Enter
+        </button>
+      </form>
+    </main>
+    <section class="cards-section">
+      <article class="card">
+        <h2 class="card-title">
+          Website Title
+        </h2>
+        <div class="card-link">
+        <a href="">www.thewebsiteurl.com</a>
+        </div>
+        <div>
+          <button class="card-button" id="read">
+            Read
+          </button>
+          <button class="card-button" id="delete">
+            Delete
+          </button>
+        </div>
+      </article>
+    </section>
+  </body>
 </html>
