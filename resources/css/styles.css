@@ -82,7 +82,7 @@ input {
   padding-top: 18px;
 }
 
-#delete {
+#delete-button {
   float: right;
 }
 
@@ -101,4 +101,8 @@ h2 {
 
 .card-button:hover {
   text-decoration: underline;
+}
+
+.read {
+  background-color: red;
 }
