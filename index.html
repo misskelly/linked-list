@@ -17,11 +17,11 @@
         List
       </h1>
       <form>
-        <input type="text" name="title" id="title" placeholder="Website Title">
+        <input type="text" name="title" id="title" maxlength="100" results="3"placeholder="Website Title">
         <label for="title" class="hidden">
           Website Title
         </label>
-        <input type="url" name="url" id="url" placeholder="Website URL">
+        <input type="url" name="url" id="url" maxlength="100" results="3"placeholder="Website URL">
         <label for="url" class="hidden">
           Website URL
         </label>
@@ -30,8 +30,8 @@
         </button>
       </form>
     </main>
-    <section class="cards-section">
-      <article class="card">
+    <section class="cards-area">
+      <!-- <article class="card">
         <h2 class="card-title">
           Website Title
         </h2>
@@ -46,7 +46,9 @@
             Delete
           </button>
         </div>
-      </article>
+      </article> -->
     </section>
   </body>
+  <script type="text/javascript" src="card.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </html>
